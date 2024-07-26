@@ -1,0 +1,65 @@
+/* src/Style/AdminTaskManagement.css */
+.admin-task-management {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-task-management button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .admin-task-management button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-form input,
+  .task-form textarea,
+  .task-form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-form button {
+    margin-top: 10px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+  }
+  
